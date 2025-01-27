@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1716662864 source:d:\desenvolvimento projetos\projetos em python\fase zero maratona\25-05-24\d\main.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
