@@ -1,0 +1,1 @@
+{"name":"Local: RNC","url":"/home/c-spec/obi191/Documents/RNC.cpp","tests":[{"id":1738069452419,"input":"5\n1 2 3 4 5","output":"Good"},{"id":1738069461259,"input":"5\n1 1 3 4 5","output":"Not Good"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/c-spec/obi191/Documents/RNC.cpp","group":"local","local":true}
