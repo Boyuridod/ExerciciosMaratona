@@ -1,1 +1,0 @@
-{"name":"Local: vetor","url":"/home/c-spec/obi191/Documents/vetor.cpp","tests":[{"id":1737557563837,"input":"","output":"5 2 51 4 \nTamanho: 4\n2 4 5 51 \n51 5 4 2 \n51 7 5 4 2 \n51 5 4 2 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/c-spec/obi191/Documents/vetor.cpp","group":"local","local":true}

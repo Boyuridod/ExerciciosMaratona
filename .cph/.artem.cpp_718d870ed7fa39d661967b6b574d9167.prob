@@ -1,1 +1,0 @@
-{"name":"Local: artem","url":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\artem.cpp","tests":[{"id":1738281814040,"input":"2\n3 2\n3 3\n","output":"BW\nWB\nBB\nBWB\nBWW\nBWB"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\artem.cpp","group":"local","local":true}

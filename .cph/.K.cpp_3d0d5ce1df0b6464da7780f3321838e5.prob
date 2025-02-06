@@ -1,1 +1,0 @@
-{"name":"Local: K","url":"/home/c-spec/obi191/Documents/K.cpp","tests":[{"id":1737717061297,"input":"5 2","output":"4"},{"id":1737717769463,"input":"103 3","output":"8"},{"id":1737717779127,"input":"1000000000000 1000000","output":"110520107"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/c-spec/obi191/Documents/K.cpp","group":"local","local":true}
