@@ -1,0 +1,1 @@
+{"name":"Local: ABCString","url":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\ABCString.cpp","tests":[{"id":1738366792424,"input":"ABACBCAACCBB","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\ABCString.cpp","group":"local","local":true}
