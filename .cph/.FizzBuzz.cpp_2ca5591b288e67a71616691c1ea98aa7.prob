@@ -1,0 +1,1 @@
+{"name":"Local: FizzBuzz","url":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\FizzBuzz.cpp","tests":[{"id":1740579356954,"input":"3\n5\n15\n51\n52","output":"Fizz\nBuzz\nFizzBuzz\nFizz\n52"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desenvolvimento Projetos\\ExerciciosMaratona\\FizzBuzz.cpp","group":"local","local":true}
