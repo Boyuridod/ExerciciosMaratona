@@ -1,4 +1,4 @@
-//
+// https://codeforces.com/contest/2078/problem/B
 
 #include <bits/stdc++.h>
 
@@ -11,6 +11,10 @@ int main(){
     cin >> N;
 
     while (N--){
+
+        int n , k = 0;
+
+        cin >> n >> k;
 
         
 
