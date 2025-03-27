@@ -1,3 +1,5 @@
+# https://codeforces.com/gym/105327/problem/K
+
 N = int(input())
 
 caramelos = list(map(int, input().split(" ")))

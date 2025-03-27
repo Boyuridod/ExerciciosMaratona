@@ -1,3 +1,5 @@
+# https://neps.academy/br/exercise/1329
+
 N = int(input())
 
 fat = [1, 1]

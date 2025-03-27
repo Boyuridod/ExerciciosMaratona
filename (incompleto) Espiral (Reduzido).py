@@ -1,6 +1,7 @@
 #USAR AS VARIAVEIS X E Y PARA SIMULAR O LOCAL QUE ESTOU NA MATRIZ!!!
+#Link não disponivel
 
-N, B = map(input().split(" "))
+N, B = map(int, input().split(" "))
 
 x = y = 0
 
