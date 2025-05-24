@@ -15,7 +15,7 @@ longo mult(longo x, longo y){
 
 int main(){
 
-    longo N = 1e6, i = 0, fat = 1;
+    longo N = 1e9, i = 0, fat = 1;
     double porcen = 0;
     ofstream fatoriais;
     string coloca = "";
