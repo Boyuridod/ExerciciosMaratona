@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/A
+
 k, n, w = list(map(int, input().split(" ")))
 
 total = 0

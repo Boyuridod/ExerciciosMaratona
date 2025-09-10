@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/M
+
 N = int(input())
 K = int(input())
 

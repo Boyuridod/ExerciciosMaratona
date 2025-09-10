@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/B
+
 import math
 
 def exercicio():

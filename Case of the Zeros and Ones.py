@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/K
+
 n = int(input())
 
 str = list(input())

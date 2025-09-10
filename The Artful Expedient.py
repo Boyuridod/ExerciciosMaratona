@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/I
+
 n = int(input())
 x = list(map(int, input().split(" ")))
 y = list(map(int, input().split(" ")))

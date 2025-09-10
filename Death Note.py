@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/E
+
 n, m = list(map(int, input().split(" ")))
 a = list(map(int, input().split(" ")))
 

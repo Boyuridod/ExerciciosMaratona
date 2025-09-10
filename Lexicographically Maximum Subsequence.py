@@ -1,3 +1,5 @@
+# https://vjudge.net/contest/746740#problem/J
+
 st = list(input())
 
 sete = list(set(st))
