@@ -6,11 +6,11 @@ using namespace std;
 
 int main(){
 
-    int N = 0;
+    int T = 0;
 
-    cin >> N;
+    cin >> T;
 
-    while (N--){
+    while (T--){
 
         
 
