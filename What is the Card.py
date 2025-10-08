@@ -1,3 +1,5 @@
+# https://vjudge.net/problem/UVA-10646
+
 values = {
     'A': 10,
     'J': 10,
@@ -11,6 +13,8 @@ def exercicio(i):
 
     decks = list(input().split(" "))
 
+    decks.reverse()
+
     mao = decks[0: 25]
 
     pilha = decks[25: len(decks)]
@@ -23,7 +27,6 @@ def exercicio(i):
             except:
                 x = int(pilha[0][0])
 
-            print(pilha)
             y += x
 
             try:
@@ -32,11 +35,12 @@ def exercicio(i):
             except:
                 continue
 
+
     pilha = mao + pilha
 
-    print(pilha)
+    pilha.reverse()
 
-    print(f"case {i + 1}: {pilha[y - 1]}")
+    print(f"Case {i + 1}: {pilha[y - 1]}")
 
 n = int(input())
 
