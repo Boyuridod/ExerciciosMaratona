@@ -2,6 +2,6 @@ Precomputar/fatoriais.txt
 .vscode/
 .cph/
 codigosNaoMeus/
-output/
+*output/
 *.cph/
 .venv

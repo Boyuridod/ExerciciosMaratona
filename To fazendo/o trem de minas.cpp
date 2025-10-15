@@ -1,4 +1,4 @@
-//
+// https://codeforces.com/group/rjjThiaoxx/contest/641718/problem/K
 
 #include <bits/stdc++.h>
 
@@ -10,26 +10,23 @@ const int mod = 1e9+7; // Primo
 const int INF = 1e9; // Infinito ou (INT_MAX)
 const double EPS = 1e-9; // Epsilon (Numero muito pequeno) (ou 1e-12)
 
-int exercicio(){
-
-    // Code
-
-    return 0;
-}
-
 int main(){
 
     ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
 
-    int t = 0;
+    int t = 0, a, b = 0, soma = 0;
 
     cin >> t;
 
     while (t--){
-
-        cout << exercicio() << endl;
-
+        cin >> a >> b;
+        
+        soma += a;
+        
+        if(t > 0) soma -= b;
     }
+
+    cout << abs(soma);
 
     return 0;
 }
