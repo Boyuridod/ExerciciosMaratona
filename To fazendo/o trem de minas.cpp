@@ -14,19 +14,32 @@ int main(){
 
     ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
 
-    int t = 0, a, b = 0, soma = 0;
+    longo t = 0, a, b = 0, soma = 0, possivel = 0, i = 0;
 
     cin >> t;
 
-    while (t--){
+    for(i = 0; i < t; i++){
         cin >> a >> b;
+
+        if(i == 0){
+            soma = a;
+            soma -= b;
+            possivel = a;
+        }
+
+        if(i > 0){
+            soma += a;
+            
+            if(possivel < soma) possivel = soma;
+            
+            if(i < t - 1) soma -= b;
+
+            // if(soma >= 0) possivel = soma;
+        }
         
-        soma += a;
-        
-        if(t > 0) soma -= b;
     }
 
-    cout << abs(soma);
+    cout << possivel << endl;
 
     return 0;
 }
