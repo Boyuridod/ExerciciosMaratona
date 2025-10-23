@@ -1,12 +1,10 @@
-from math import ceil
+def calcula(t, cap):
+    qtt = 0
 
-def MDC(a, b):
-    if(b == 0):
-        return a
-    return MDC(b, a%b)
+    for i in cap:
+        qtt += t * i
 
-def MMC(a, b):
-    return a * b / MDC(a, b)
+    return qtt
 
 N = int(input())
 
@@ -14,16 +12,22 @@ paes = int(input())
 
 cap = list(map(int, input().split(" ")))
 
-mmc = cap[0]
+tmax = paes * max(cap)
 
-for i in range(1, N - 1):
-    mmc = MMC(mmc, cap[i])
+esq = 0
+cent = tmax
+dir = tmax 
 
-somatorio = 0
+menor = 1e10
 
-for i in range(N):
-    somatorio += mmc/cap[i]
+while(True):
+    if(calcula(cent, cap) > paes):
+        dir = cent
+    elif(calcula(cent, cap) < paes):
+        esq = cent
+    else:
+        break
 
-t = ceil((paes * mmc)/somatorio)
+    cent = (esq + dir) // 2
 
-print(t)
+print(cent)
