@@ -2,7 +2,7 @@ def calcula(t, cap):
     qtt = 0
 
     for i in cap:
-        qtt += t * i
+        qtt += t // i
 
     return qtt
 
@@ -20,7 +20,7 @@ dir = tmax
 
 menor = 1e10
 
-while(True):
+while(esq < dir - 1):
     if(calcula(cent, cap) > paes):
         dir = cent
     elif(calcula(cent, cap) < paes):
@@ -29,5 +29,8 @@ while(True):
         break
 
     cent = (esq + dir) // 2
+
+if(esq == dir - 1):
+    cent += 1
 
 print(cent)
