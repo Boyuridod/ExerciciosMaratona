@@ -5,9 +5,9 @@ def sorte(l):
 
     while(embaralhado):
         embaralhado = False
-        for i in range(len(l) - 1, -1, -1):
-            for j in range(i, 0, -1):
-                if(l[i] < l[j]):
+        for i in range(len(l)):
+            for j in range(i + 1, len(l)):
+                if(l[i] > l[j]):
                     if(l[i] & 1 != l[j] & 1):
                         aux = l[i]
                         l[i] = l[j]
@@ -27,14 +27,22 @@ def exercicio():
 
     brinq = list(map(int, input().split(" ")))
 
-    ret = ""
+    ord = False
 
-    for i in sorte(brinq):
-        ret += f"{i} "
+    prim = brinq[0] % 2
 
-    return ret
+    for i in range(1, tam):
+        if(prim != brinq[i] % 2):
+            ord = True
+            break
+
+    if(ord):
+        return sorted(brinq)
+    
+    else:
+        return brinq
 
 t = int(input())
 
 for k in range(t):
-    print(exercicio())
+    print(*exercicio())
