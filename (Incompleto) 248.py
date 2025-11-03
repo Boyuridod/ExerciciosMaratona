@@ -1,4 +1,4 @@
-# https://neps.academy/br/exercise/244
+# https://neps.academy/br/exercise/248
 
 N = int(input())
 consultas = []
