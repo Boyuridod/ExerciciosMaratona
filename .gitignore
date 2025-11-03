@@ -7,3 +7,7 @@ codigosNaoMeus/
 .venv
 
 *tempCodeRunnerFile.py
+*tempCodeRunnerFile.cpp
+tempCodeRunnerFile
+
+*.out
