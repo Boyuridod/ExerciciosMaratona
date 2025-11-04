@@ -1,6 +1,6 @@
 #!/bin/bash
 
-codigo="StrangeMachine.cpp"
+codigo="Blackboard Game.cpp"
 executavel="a.out"
 
 casos=1
